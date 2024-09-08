@@ -1,0 +1,74 @@
+.dark-theme .containerWelcome,
+.dark-theme .__buttonView,
+.dark-theme .__buttonView::before,
+.dark-theme ._containerButtonOpacity>button {
+    background-color: #1d1f24;
+    color: white;
+}
+
+.dark-theme .AboutMeContainer {
+    backdrop-filter: invert(1)
+}
+
+.dark-theme .__about {
+    color: #fff;
+}
+
+.dark-theme .header {
+    background-color: #fff;
+    border-bottom: solid 1px #000;
+}
+
+.dark-theme .__headerLeftContent {
+    color: #1d1f24;
+}
+
+.dark-theme .AboutMeContainer::before {
+    background: linear-gradient(to top, black, rgba(255, 255, 255, 0));
+}
+
+.dark-theme .footer,
+.dark-theme .footer__copy,
+.dark-theme .NovisBlock {
+    background-color: #ffffff;
+
+}
+
+.dark-theme .footer__link:hover {
+    background: #ffffff;
+    border: solid 1px #020202;
+}
+
+.dark-theme .footer__title,
+.dark-theme .footer__copy {
+    color: #080808;
+}
+
+.dark-theme .pageProjects {
+    backdrop-filter: invert(1);
+}
+
+.dark-theme .pageProjects:after {
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+}
+
+.dark-theme .pageProjects::before {
+    background: linear-gradient(to top, #2f2f2f, rgba(255, 255, 255, 0));
+}
+
+.dark-theme .footer::before {
+    border-top: 10vw solid #2f2f2f;
+}
+
+.dark-theme .__bottomSpanCard {
+    color: #000;
+}
+
+.dark-theme .__imgInProjectCard {
+    border-color: #000;
+}
+
+.dark-theme ._containerButtonOpacity>button:hover {
+    background-color: #fff;
+    color: #1d1f24;
+}
