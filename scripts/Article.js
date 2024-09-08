@@ -1,5 +1,5 @@
 class Article {
-    constructor(NameProject,tehnology, description1,description2 , data) {
+    constructor(NameProject, tehnology, description1, description2, data, linkCode, linkSite) {
         // Создание элемента article и установка класса
         this.article = document.createElement('article');
         this.article.className = 'containerCard';
@@ -18,7 +18,7 @@ class Article {
         const spanTitle = document.createElement('span');
         spanTitle.textContent = NameProject;
         bottomSpanCard.appendChild(spanTitle);
-//  'Dota 2 : A Reference Guide' 'React + Js''biblioary'
+        //  'Dota 2 : A Reference Guide' 'React + Js''biblioary'
         // Создание дополнительного блока с информацией
         const infoBlock = document.createElement('div');
         const spanTech = document.createElement('span');
@@ -63,6 +63,7 @@ class Article {
         const viewCodeButton = document.createElement('button');
         viewCodeButton.textContent = 'View code';
         const visitSiteButton = document.createElement('button');
+
         visitSiteButton.textContent = 'Visit site';
         buttonContainer.appendChild(viewCodeButton);
         buttonContainer.appendChild(visitSiteButton);
@@ -79,8 +80,14 @@ class Article {
         this.article.appendChild(novisBlock);
         this.article.appendChild(visbleBlockCard);
 
-        // Добавление containerCard в элемент root
-       
+        viewCodeButton.addEventListener('click', () => {
+            window.location.href = linkSite; 
+        });
+
+        visitSiteButton.addEventListener('click', () => {
+            window.location.href = linkCode;
+        });
+
     }
     render() {
         return this.article

@@ -333,7 +333,7 @@ const project = [{
 },]
 
 project.map((item) => {
-    const are = new Article(item.nameProject, item.tehnology, item.description, '', item.data)
+    const are = new Article(item.nameProject, item.tehnology, item.description, '', item.data ,item.linkSite ,  item.linkCode)
     document.querySelector('.containerActicle').append(are.render())
 })
 
