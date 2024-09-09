@@ -81,13 +81,11 @@ class Article {
         this.article.appendChild(visbleBlockCard);
 
         viewCodeButton.addEventListener('click', () => {
-            window.location.href = linkSite; 
+            window.location.href = linkSite;
         });
-
         visitSiteButton.addEventListener('click', () => {
             window.location.href = linkCode;
         });
-
     }
     render() {
         return this.article
