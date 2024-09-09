@@ -11,6 +11,13 @@ class Article {
         // Создание блока изображения
         const imgInProjectCard = document.createElement('div');
         imgInProjectCard.className = '__imgInProjectCard';
+       
+        const imgInProjectCardImg = document.createElement('img');
+        imgInProjectCardImg.src = './img/image.png'
+        imgInProjectCard.append(imgInProjectCardImg)
+        imgInProjectCardImg .style.width = 'inherit'
+        imgInProjectCardImg .style.height = '100%'
+    
 
         // Создание нижнего блока с информацией
         const bottomSpanCard = document.createElement('div');

@@ -207,7 +207,7 @@ span {
 .__imgInProjectCard {
     width: inherit;
     height: 350px;
-    background-image: url('/img/image.png');
+    /* background-image: url('/img/image.png'); */
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
