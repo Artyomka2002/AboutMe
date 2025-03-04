@@ -101,3 +101,7 @@
     width: 100%;
 }
 
+.containerActicle{
+    display: flex;
+    gap:10px;
+}

@@ -1,5 +1,5 @@
 class Article {
-    constructor(NameProject, tehnology, description1, description2, data, linkCode, linkSite) {
+    constructor(NameProject, tehnology, description1, description2, data, linkCode, linkSite , projectImg) {
         // Создание элемента article и установка класса
         this.article = document.createElement('article');
         this.article.className = 'containerCard';
@@ -13,7 +13,7 @@ class Article {
         imgInProjectCard.className = '__imgInProjectCard';
        
         const imgInProjectCardImg = document.createElement('img');
-        imgInProjectCardImg.src = './img/image.png'
+        imgInProjectCardImg.src = projectImg
         imgInProjectCard.append(imgInProjectCardImg)
         imgInProjectCardImg .style.width = 'inherit'
         imgInProjectCardImg .style.height = '100%'

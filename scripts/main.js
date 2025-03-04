@@ -329,11 +329,20 @@ const project = [{
     description: 'Проект был реализован на Vite + React + Js. Сам проект пресдтавляет собой мини-библиотеку о игре(Dota 2).',
     data: 'August 29, 2023',
     linkSite: 'https://main--dota2-guide.netlify.app',
-    linkCode: 'https://github.com/Artyomka2002/Dota-2-A-Reference-Guide'
-},]
+    linkCode: 'https://github.com/Artyomka2002/Dota-2-A-Reference-Guide',
+    projectImg: './img/image.png'
+},{
+    nameProject: 'Real-Time-Chat',
+    tehnology: 'React + Ts + WebSocket',
+    description: 'Проект является тестовым заданием к собеседованию в компанию Sibers.',
+    data: 'September 16, 2024',
+    linkSite: 'https://github.com/Artyomka2002/Real-Time-Chat',
+    linkCode: 'https://github.com/Artyomka2002/Real-Time-Chat',
+    projectImg: './img/imgChat.jpg'
+}]
 
 project.map((item) => {
-    const are = new Article(item.nameProject, item.tehnology, item.description, '', item.data ,item.linkSite ,  item.linkCode)
+    const are = new Article(item.nameProject, item.tehnology, item.description, '', item.data ,item.linkSite ,  item.linkCode , item.projectImg)
     document.querySelector('.containerActicle').append(are.render())
 })
 
