@@ -330,7 +330,14 @@ const project = [{
     data: 'August 29, 2023',
     linkSite: 'https://main--dota2-guide.netlify.app',
     linkCode: 'https://github.com/Artyomka2002/Dota-2-A-Reference-Guide'
-},]
+},{
+    nameProject: 'Dota 2 : A Reference Guide',
+    tehnology: 'React + Js',
+    description: 'Проект был реализован на Vite + React + Js. Сам проект пресдтавляет собой мини-библиотеку о игре(Dota 2).',
+    data: 'August 29, 2023',
+    linkSite: 'https://main--dota2-guide.netlify.app',
+    linkCode: 'https://github.com/Artyomka2002/Dota-2-A-Reference-Guide'
+}]
 
 project.map((item) => {
     const are = new Article(item.nameProject, item.tehnology, item.description, '', item.data)
