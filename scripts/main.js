@@ -348,7 +348,6 @@ const project = [{
     linkSite: 'https://artyomka2002.github.io/TodoList-fitrsPtoject-/',
     linkCode: 'https://github.com/Artyomka2002/TodoList-fitrsPtoject-',
     projectImg: './img/TODOLIST.jpg',
-    projectImg: './img/ImgChat.jpg'
 }]
 
 project.map((item) => {
