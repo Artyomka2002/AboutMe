@@ -339,6 +339,15 @@ const project = [{
     linkSite: 'https://github.com/Artyomka2002/Real-Time-Chat',
     linkCode: 'https://github.com/Artyomka2002/Real-Time-Chat',
     projectImg: './img/imgChat.jpg'
+},
+{
+    nameProject: 'TodoList',
+    tehnology: 'HTML + Js',
+    description: 'Мой первый практический опыт',
+    data: 'November 23, 2022',
+    linkSite: 'https://artyomka2002.github.io/TodoList-fitrsPtoject-/',
+    linkCode: 'https://github.com/Artyomka2002/TodoList-fitrsPtoject-',
+    projectImg: './img/TODOLIST.jpg'
 }]
 
 project.map((item) => {
@@ -346,9 +355,7 @@ project.map((item) => {
     document.querySelector('.containerActicle').append(are.render())
 })
 
-console.log(
-    document.querySelector('.containerActicle')
-)
+
 
 
 
