@@ -338,7 +338,7 @@ const project = [{
     data: 'September 16, 2024',
     linkSite: 'https://github.com/Artyomka2002/Real-Time-Chat',
     linkCode: 'https://github.com/Artyomka2002/Real-Time-Chat',
-    projectImg: './img/imgChat.jpg'
+    projectImg: './img/ImgChat.jpg'
 },
 {
     nameProject: 'TodoList',
