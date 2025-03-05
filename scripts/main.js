@@ -282,7 +282,7 @@ function textAnimate(text, canvas, color) {
 }
 function handleClick() {
     let index = 0;
-    const text = "Привет! Меня зовут Артем Ильичев. Я Fronted-разработчик. Активно изучаю новые технологии, обучаюсь на 3 курсе Университета и люблю всё, что связано с программированием. Я склонен решать задачи самостоятельно. Обучаюсь программированию на JS 4 месяца и не вижу смысла останавливаться!";
+    const text = "Привет! Меня зовут Артем Ильичев. Я Fronted-разработчик. Увлекаюсь кодом. Нравиться решать задачи. На данный момент являюсь студентом инженерного Университета. Стремлюсь понять как работает код , а не написал и забыл. Охотно учусь новому, но предпочитаю быть лучше в чем то конкретном";
 
     function showText() {
         if (index <= text.length) {
@@ -347,7 +347,8 @@ const project = [{
     data: 'November 23, 2022',
     linkSite: 'https://artyomka2002.github.io/TodoList-fitrsPtoject-/',
     linkCode: 'https://github.com/Artyomka2002/TodoList-fitrsPtoject-',
-    projectImg: './img/TODOLIST.jpg'
+    projectImg: './img/TODOLIST.jpg',
+    projectImg: './img/ImgChat.jpg'
 }]
 
 project.map((item) => {
